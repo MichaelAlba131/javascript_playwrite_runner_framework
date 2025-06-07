@@ -46,17 +46,25 @@ cd javascript_playwright_runner_framework
 npm install
 </pre>
 
+
 <h2>▶️ Executando os Testes</h2>
-<pre>
-npx playwright test
-</pre>
+```bash
+  npx playwright test
+```
 <p>🔹 Isso executa todos os testes da pasta <code>tests</code> e gera o relatório HTML em <code>playwright-report</code>.</p>
 
 <h3>📝 Executando testes de um arquivo específico</h3>
-<pre>npx playwright test tests/login/login.spec.js</pre>
+
+```bash
+  npx playwright test tests/login/login.spec.js
+```
 
 <h3>📈 Abrindo o relatório de testes</h3>
-<pre>npx playwright show-report</pre>
+```bash
+  npx playwright show-report
+```
+
+
 
 <h2>🛠️ Estrutura dos Testes</h2>
 <ul>
